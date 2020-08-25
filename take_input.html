@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="text/javascript">
+    function fn()
+    {
+      var m= document.getElementById("text1").value;
+      var n=document.getElementById("text2").value;
+      if(m==n)
+      {
+          alert("Name and password are same");
+      }
+      else
+      {
+          alert("Not same");
+      }
+    //   var s=m+"aman";
+    //   document.write("<h1>bhosdike wala</h1>");
+
+    }
+    </script>
+</head>
+<body>
+       Enter your name: <input type="text" id="text1" placeholder="Enter">
+        <br>
+        <br>
+        Enter password: <input id="text2" type="password" placeholder="password">
+        <br>
+        <br>
+        <button style="background-color: rgb(195, 241, 28); width: 300px; height: 50px;" id="btn" onclick="fn()"><b>Click Me I will show a magic</b></button>
+</body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+    <script type="text/javascript">
+        function fn()
+        {
+            var select=document.getElementById("selectbox");
+            alert(select.options[select.selectedIndex].value);
+        }
+    </script>
+</head>
+<body>
+    <select id="selectbox">
+        <option value="Aman">Aman</option>
+        <option value="Arvind">Arvind</option>
+        <option value="Akshay">Akshay</option>
+
+    </select><br>
+    <br> 
+    <button onclick="fn()">Click Me</button>
+</body>
+</html>

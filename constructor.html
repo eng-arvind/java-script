@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <title>
+            constructor in javascript
+        </title>
+        <script type="text/javascript">
+        function cars(car_brand,car_model,price)
+        {
+            this.car_brand=car_brand;
+            this.car_model=car_model;
+            this.price=price;
+            this.teslaautopilot = function()
+            {
+                document.write("<h2>This is auto pilot car</h2>");
+            }
+        }
+        var c1 = new cars("tesla","model_3",35000);
+        c1.teslaautopilot();
+        document.write(c1.car_brand+" ");
+        document.write(c1.car_model);
+        var c2= new cars("Tesla","Model_2",45000);
+        c2.teslaautopilot();
+        document.write(c2.car_brand+" ");
+        document.write(c2.car_model);
+        </script>
+    </head> 
+    <body>
+    </body>
+</html>

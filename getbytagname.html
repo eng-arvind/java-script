@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="text/javascript">
+        function changeStyle()
+        {
+            var para = document.getElementsByTagName("p");
+            para[0].style.color = "red";
+            para[1].style.fontStyle = "italic";
+            para[2].style.fontWeight="bold";
+
+        }
+        </script>
+</head>
+<body>
+    <p>This is pr 1</p>
+    <p>This is pr 2</p>
+    <p>This is pr 3</p>
+    <p>This is pr 4</p>
+    <p>This is pr 5</p>
+    
+    <br>
+    <button onclick="changeStyle()">Click Me</button>
+</body>
+</html>

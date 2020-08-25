@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="text/javascript">
+    function fn()
+    {
+        var a=document.getElementById("id1");
+        var b=document.getElementById("id2");
+        if(a.checked==true)
+        {
+            alert("first selected: "+a.value);
+        }
+        else if(b.checked==true)
+        {
+            alert("second selected: "+b.value);
+        }
+        else
+        {
+            alert("No one selected");
+        }
+    }
+
+    </script>
+</head>
+<body>
+    <input name="grp1" type="radio" value="Simple Snippets" name="" id="id1">Simple Snippets </input>
+    <br>
+    <br>
+    <input name="grp1" type="radio" value="Arvind kumar" name="" id="id2">Arvind Kumar</input>
+    <br>
+    <br>
+    <button id="btn" onclick="fn()" >Click Me</button>
+</body>
+</html>
